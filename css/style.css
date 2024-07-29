@@ -1,0 +1,227 @@
+/* BODY */
+p1{
+    font-size:30px ;
+    font-style:italic;
+    text-decoration:underline;
+
+
+
+
+}
+
+
+
+
+
+
+
+/* HEADER */
+.header__img{
+    height: auto;
+    width: 120px;
+    -webkit-box-shadow: 0 5px 25px rgba(0,0,0,15);
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* HEADER1 */
+header{
+   position:sticky ;
+    top: 0;                           "делаем так,чтобы шапка при прокрутке застыла"
+    z-index:1000 ;
+    padding: 10px;                 "добавили отступы"
+    background:fff;                    "по дефолту шапка прозрачная ,поэтому делаем ее белой"
+    -webkit-box-shadow: 0 5px 25px rgba(0,0,0,15);          "для красоты добовляем тени"
+    box-shadow: 0 5px 25px rgba(0,0,0,15);
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+.header__img{
+    height: 64px; '''высота картинки''''
+    width: 64px;  '''ширина'''
+}
+
+span1{
+    font-size:17px ;
+    text-decoration:underline;
+    height:50px;
+
+
+
+
+
+
+
+}
+
+a{
+    font-style:italic;
+
+
+
+
+
+
+}
+
+
+
+
+
+
+/* FOOTER */
+.footer__img {
+    height: 48px;
+    width: 48px;
+}
+
+/* POSTS */
+.row {
+    padding: 50px 0;                '''Код взяли из Bootstrapa и переделали его из scs в css'''
+}
+
+.seperator {
+    margin-bottom: 30px;
+    width: 35px;
+    height: 3px;
+    background: #777;
+    border: none;
+}
+
+.title {
+    text-align: center;
+}
+
+.title .row {
+    padding: 50px 0 0;
+}
+
+.title h1 {
+    text-transform: uppercase;
+}
+
+.title .seperator {
+    margin: 0 auto 10px;
+}
+
+.item {
+    position: relative;
+    margin-bottom: 30px;
+    min-height: 1px;
+    float: left;
+    -webkit-box-shadow: 0 5px 25px rgba(0,0,0,15);
+    box-shadow: 0 5px 25px rgba(0,0,0,15);
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.item .item-in {
+    background: #fff;
+    padding: 40px;
+    position: relative;
+}
+
+.item .item-in:hover:before {
+    width: 100%;
+}
+
+.item .item-in::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    height: 2px;
+    width: 0%;
+    background: #333333;
+    right: 0px;
+    -webkit-transition: width 0.4s;
+    transition: width 0.4s;
+}
+
+.item h4 {
+    font-size: 18px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.item p {
+    font-size: 24px;
+    font-style:italic;
+}
+
+.item a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 10px;
+}
+
+.item a i {
+    opacity: 0;
+    padding-left: 0px;
+    transition: 0.4s;
+    font-size: 24px;
+    display: inline-block;
+    top: 5px;
+    position: relative;
+}
+
+.item a:hover {
+    text-decoration: none;
+}
+
+.item a:hover i {
+    padding-left: 10px;
+    opacity: 1;
+    font-weight: 300;
+}
+
+
+/* LOREN5 */
+p{
+    font-size:40px ;
+
+
+
+}
+
+
+
+
+
+
+
+
+
