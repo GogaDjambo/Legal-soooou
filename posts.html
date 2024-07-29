@@ -1,0 +1,22 @@
+{% extends 'base.html'%}
+
+{%block title%}
+Юридичесие услуги
+{% endblock %}
+
+{%block content%}
+<h1>Страница о нас</h1>
+
+<div class="row">
+
+  {%for post in posts%}
+  <div class=" col-xl-8 item ">
+    <div class=" item-in">
+      <h4>{{post.title}}</h4>
+      <div class=" seperator"></div>
+        <p>{{post.text}}</p>
+      </div>
+    </div>
+  {%endfor%}
+</div>
+{%endblock%}

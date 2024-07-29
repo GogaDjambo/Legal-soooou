@@ -1,0 +1,19 @@
+{% extends 'base.html'%} #наследование от base#
+
+{%block title%} #начало #
+
+Главная страница   #информация#
+
+{% endblock %} #конец#
+
+{%block body%}
+
+<h1>Юридичесие услуги</h1>
+
+<form method="post" class ="form-control">    '''теперь мы публикуем инфу на сайт'''
+    <input type="text" name="title"placeholder="Введите заголовок" class ="form-control">     '''ячейки для введения инфы'''
+    <input type="text" name="text"placeholder="Введите текст заголовок" class ="form-control">  '''class ="form-control - это надо для дизайна'''
+    <button class="btn-success" type="submit">Добавить</button>          '''кнопка для запуска'''
+</form>
+
+{%endblock%}
